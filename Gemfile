@@ -3,7 +3,7 @@ ruby '2.4.1'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.0.beta'
+gem 'rails', '~> 5.1.0.rc2'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use Puma as the app server
@@ -33,7 +33,7 @@ gem 'jbuilder'
 #
 #The Bourbon family
 gem 'bourbon', '>= 5.0.0.beta.7' 
-gem 'neat'
+gem 'neat', '< 2.0'
 
 gem 'haml-rails'
 
